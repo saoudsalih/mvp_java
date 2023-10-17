@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:id="@+id/parent_linear_otp"
+        tools:context=".activities.OtpRequestActivity">
+
+
+        <LinearLayout
+            android:id="@+id/back_button"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="?android:attr/actionBarSize"
+            android:gravity="center"
+            android:padding="@dimen/_13dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/title_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/back_button"
+            android:layout_marginLeft="@dimen/_26dp"
+            android:layout_marginTop="@dimen/_15dp"
+            android:layout_marginRight="@dimen/_26dp"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/proxima_nova_medium"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/otp_validation"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="@color/title_text_color" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20dp"
+                android:fontFamily="@font/proxima_nova_semibold"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/authenticate_your_mobile_number"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="@color/title_text_color" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15dp"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/please_enter_one_time_password_otp_received_on_your_registered_mobile_number"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:textColor="@color/title_text_color" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/otpEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="6"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:hint="@string/one_time_password"
+                    android:inputType="phone" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/proceed"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:background="@drawable/rectange_background"
+                android:fontFamily="@font/proxima_nova_semibold"
+                android:text="@string/confirm_validation"
+                android:textColor="@color/white" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

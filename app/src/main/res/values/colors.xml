@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#04A292</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorOverlay">#42a5f5</color>
+    <color name="colorSecodary">#e91e63</color>
+    <color name="colorSecondaryDark">#b0003a</color>
+
+    <color name="light_gray">#e7e7e7</color>
+    <color name="black">#000000</color>
+    <color name="background_color">#f1f1f1</color>
+    <color name="background_color_tex">#f4f4f4</color>
+    <color name="list_item_selected_state">@color/light_gray</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_color">#B1B1B1</color>
+    <color name="dark_gray">#747474</color>
+    <color name="login_text">#5f5d70</color>
+    <color name="blue">#0958a3</color>
+    <color name="dark_text_color">#4d4f5a</color>
+    <color name="colorBtnPressed">#ff0000</color>
+    <color name="transparent">#85ffffff</color>
+    <color name="_0f9bc2">#0f9bc2</color>
+    <color name="_f4f4f4">#f4f4f4</color>
+    <color name="_f9f9f9">#f9f9f9</color>
+    <color name="sixnine">#696969</color>
+    <color name="Yellow">#ffdd00</color>
+    <color name="Yellow_notification">#ffa726</color>
+    <color name="red_notifications">#ef5350</color>
+    <color name="battery_dead">#ef3935</color>
+    <color name="title_text_color">@android:color/black</color>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Aikya</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="new_user">New user?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="registration">Registration</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email id</string>
+    <string name="password_should_be_a_combination_of_number_and_special_character">Password should be a combination of number and special character and password length should have atleast 6 characters <b>(Example:-pass@12)</b></string>
+    <string name="register">Register</string>
+    <string name="otp_validation">Otp Validation</string>
+    <string name="authenticate_your_mobile_number">Authenticate your mobile number</string>
+    <string name="please_enter_one_time_password_otp_received_on_your_registered_mobile_number">Please enter One Time Password (OTP) received on your registered mobile number</string>
+    <string name="one_time_password">One Time Password</string>
+    <string name="confirm_validation">Confirm Validation</string>
+    <string name="not_received_your_code">Not received your code?</string>
+    <string name="resend_code">Resend code</string>
+    <string name="enter_valid_otp">please enter valid otp</string>
+    <string name="field_required">Field required</string>
+    <string name="user_profile">User Profile</string>
+    <string name="comments">comments</string>
+    <string name="submit">submit</string>
+    <string name="update">Update</string>
+    <string name="last_name">Last Name</string>
+</resources>

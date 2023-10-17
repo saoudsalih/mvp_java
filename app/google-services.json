@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "442443985366",
+    "firebase_url": "https://aikya-2b7df.firebaseio.com",
+    "project_id": "aikya-2b7df",
+    "storage_bucket": "aikya-2b7df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442443985366:android:2663d4cfcc3a32dea6f477",
+        "android_client_info": {
+          "package_name": "in.aikya.mt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442443985366-bdjsiutfa1ldruuhfpo0s642prb8nptd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.aikya.mt",
+            "certificate_hash": "bbdee4dbcafc04f8b39ff45c8a2638f38465d05e"
+          }
+        },
+        {
+          "client_id": "442443985366-ooda0t07t9g44bjgpjvuebui417eo8n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYcqeZz-mNGL35KoY-MeQSsm7Lqf7eAkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442443985366-ooda0t07t9g44bjgpjvuebui417eo8n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
